@@ -1,2 +1,2 @@
-import tensorflow as tf
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+for i in range(1, 10):
+    print(i)
